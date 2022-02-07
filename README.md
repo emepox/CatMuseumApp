@@ -42,13 +42,14 @@ We are requesting this info for the categories screen.
 
 We are limiting the department searches to these.
 - 5 - Arts of Africa, Oceania, and the Americas
+- 6 - Asian Art
 - 10 - Egyptian Art
 - 11 - European Paintings
 - 13 - Greek and Roman Art
 - 14 - Islamic Art
 - 17 - Medieval Art
 - 19 - Photographs
-- 21 - Modern Art
+
 
 
 #### SEARCH

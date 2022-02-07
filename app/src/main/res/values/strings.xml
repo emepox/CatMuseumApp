@@ -4,4 +4,14 @@
     <string name="TITLE">Welcome to the cat museum from the Metropolitan Museum</string>
     <string name="INTRO">Check all our amazing cat art</string>
     <string name="BUTTON_HOME">Enter</string>
+    <string name="DEPARTMENTS">Here we have all the departments</string>
+    <string name="DEP05">Arts of Africa, Oceania, and the Americas</string>
+    <string name="secondary_text">TEST</string>
+    <string name="DEP06">Asian Art</string>
+    <string name="DEP10">Egyptian Art</string>
+    <string name="DEP11">European Paintings</string>
+    <string name="DEP13">Greek and Roman Art</string>
+    <string name="DEP14">Islamic Art</string>
+    <string name="DEP17">Medieval Art</string>
+    <string name="DEP19">Photographs</string>
 </resources>
