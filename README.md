@@ -41,26 +41,29 @@ This is a museum app.
 We are requesting this info for the categories screen.
 
 We are limiting the department searches to these.
-5 - Arts of Africa, Oceania, and the Americas
-10 - Egyptian Art
-11 - European Paintings
-13 - Greek and Roman Art
-14 - Islamic Art
-17 - Medieval Art
-19 - Photographs
-21 - Modern Art
+- 5 - Arts of Africa, Oceania, and the Americas
+- 10 - Egyptian Art
+- 11 - European Paintings
+- 13 - Greek and Roman Art
+- 14 - Islamic Art
+- 17 - Medieval Art
+- 19 - Photographs
+- 21 - Modern Art
+
 
 #### SEARCH
 *GET /public/collection/v1/search*
 
 This endpoint returns a list of IDs that we need to call again in the Object endpoint (check down). To improve performance, we will only take 50 of them and store its data in the SharedPreferences (cache). We are selecting specific data to store (check above). This way the app will be an offline app for the stored calls.
 This endpoint accepts parameters, and we are going to use hasImages=true as default.
-Because this endpoint needs a search query, we will use "a" as default search.
+Because this endpoint needs a search query, we will use " cat " as default search.
 
 Example:
-*https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&q=a*
+*https://collectionapi.metmuseum.org/public/collection/v1/search?hasImages=true&tags=true&departmentId=[DEPARTMENT_ID]&q=" cat "*
+
 
 #### OBJECT
 *GET /public/collection/v1/objects/[objectID]*
 
 We are checking this endpoint to get information about each id that search and department returns.
+

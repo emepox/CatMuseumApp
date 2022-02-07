@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">MuseumApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="TITLE">Welcome to the cat museum from the Metropolitan Museum</string>
+    <string name="INTRO">Check all our amazing cat art</string>
+    <string name="BUTTON_HOME">Enter</string>
 </resources>
